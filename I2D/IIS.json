@@ -1,0 +1,61 @@
+{
+    "AspNet35Status":  "Present",
+    "ApplicationPools":  {
+                             "applicationPools":  [
+                                                      "DefaultAppPool",
+                                                      "Classic .NET AppPool",
+                                                      ".NET v2.0 Classic",
+                                                      ".NET v2.0"
+                                                  ],
+                             "applicationPoolDefaults":  {
+                                                             "managedRuntimeVersion":  "v4.0",
+                                                             "processModel":  {
+                                                                                  "identityType":  "ApplicationPoolIdentity"
+                                                                              }
+                                                         }
+                         },
+    "ApplicationDefaults":  [
+
+                            ],
+    "SiteDefaults":  [
+                         [
+
+                         ],
+                         [
+
+                         ]
+                     ],
+    "Websites":  [
+                     {
+                         "Name":  "Default Web Site",
+                         "ID":  "1",
+                         "Applications":  [
+                                              {
+                                                  "Path":  "/",
+                                                  "ApplicationPool":  ".NET v2.0 Classic",
+                                                  "VirtualDirectories":  [
+                                                                             {
+                                                                                 "Path":  "/",
+                                                                                 "PhysicalPath":  "C:\\inetpub\\wwwroot"
+                                                                             }
+                                                                         ]
+                                              }
+                                          ],
+                         "Bindings":  [
+                                          {
+                                              "Protocol":  "http",
+                                              "BindingInformation":  "*:80:"
+                                          }
+                                      ]
+                     }
+                 ],
+    "AspNetStatus":  "Present",
+    "FeatureName":  "IIS-ApplicationDevelopment;IIS-ASPNET;IIS-CommonHttpFeatures;IIS-DefaultDocument;IIS-DirectoryBrowsing;IIS-HealthAndDiagnostics;IIS-HttpCompressionStatic;IIS-HttpErrors;IIS-HttpLogging;IIS-ISAPIExtensions;IIS-ISAPIFilter;IIS-LegacySnapIn;IIS-Metabase;IIS-NetFxExtensibility;IIS-Performance;IIS-RequestFiltering;IIS-Security;IIS-StaticContent;IIS-WebServer;IIS-WebServerRole;IIS-WindowsAuthentication;NetFx4Extended-ASPNET45",
+    "VirtualDirectoryDefaults":  [
+
+                                 ],
+    "Status":  "Present",
+    "HttpHandlers":  [
+
+                     ]
+}

@@ -13,7 +13,7 @@ services:
         - petshopdb
 
     petshopdb:
-        image: pdebruin/petshopdb:4
+        image: microsoft/mssql-server-windows-express
         networks: 
             - default
         environment: 

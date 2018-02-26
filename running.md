@@ -14,7 +14,7 @@ Next navigate in to the docker folder where you will see the docker-compose.yml 
 
 First see the 'pdebruin/petshopweb:4' and 'pdebruin/petshopdb:4' image names. A container image name consists of <user id>/<repository name>:<tag>. As you can see my Docker hub id is pdebruin, my repository name is petshopweb and as tag I have used 4, the petshop version. You can keep these names if you don't want to push them to your own repository or personalize it. Optionally when you work with another registry, like Docker Trusted Registry, instead of Docker Hub, you can prefix the image name with <registry fqdn>/. So that would be something like dtr.pieterdebruin.net/pdebruin/petshopweb:4, obviously with your personal values. 
 
-Second find the sa_password key and value. Replace this with your own password or keep this for demo purposes. (Ideally this should be using a strong password with secrets)
+Second find the sa_password key and value. Replace this with your own password or keep this for demo purposes. (Ideally this should be using a strong password with secrets.) If you are changing it, make sure to also edit the password in the connectionstrings in the web.config file in the web app.
 
 Third find the volumes section and change the 'C:/_projects/petshop4/petshop/docker/db:C:/tempdb/' mapping to your own. So that would be something like <your working folder>/db:C:/tempdb/. You will see that the tempdb folder is used in the attach_dbs section, so you can also change the tempdb folder name but then change it everywhere. (Ideally this should be using persistent storage outside the host like Azure files)
 

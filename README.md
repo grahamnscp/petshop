@@ -1,7 +1,7 @@
 # Petshop
 This document describes the containerization of a typical traditional application: Petshop 4.0 is an ASP.NET 2.0 web application with an SQL Server database. 
 
-# tl:dr; How do I run this?
+# Just want to run it first?
 For instructions on how to run this containerized petshop, check out [this page](./running.md)
 
 ## Introduction

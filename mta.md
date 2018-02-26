@@ -5,11 +5,11 @@ For an introduction of petshop and modernize traditional applications, check out
 
 ## Introduction 
 
-## Manual deployment, 
+## Manual deployment with gui
 
-## Automated deployment in a gui
+## Automated deployment with gui
 
-## Automated in a headless environment
+## Automated headless 
 
 ## Automated in a container
 This is the goal.
